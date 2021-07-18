@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+header {
+    background-color: #000000;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    text-align: center;
+}
+
+.logo {
+    color: #A52A2A;
+}
+
+.logo h2 {
+    font-weight: normal;
+    font-size: 35px;
+}
+
+.menu {
+    text-align: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.4s;
+    margin-left: 20px;
+}
+
+.menu a:hover {
+    color: #B4CDCD;
+}
+
+.busca {
+    width: 20%;
+    float: left;
+}
+
+.busca input {
+    background-image: url('./imagens/lupa5.png');
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    height: 25px;
+    padding: 10px;
+    width: 190px;
+    background-position: right;
+    border: 1px solid #B4CDCD;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-section-one {
+    background-image: url(./imagens/fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background-section-two {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section-container2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container2 p {
+    align-items: center;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    align-items: center;
+}
+
+.card-container {
+    background: white;
+    border-radius: 0px;
+    padding: 30px;
+    max-width: 460px;
+}
+
+input {
+    height: 30px;
+    border-radius: 12px;
+    text-align: center;
+    background: white;
+    color: black;
+}
+
+form {
+    display: grid;
+}
+
+footer {
+    height: 25px;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    background: white;
+    display: grid;
+    align-items: center;
+}
+
+.countdown {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 100px));
+    justify-content: center;
+    gap: 5px;
+    padding: 10px;
+}
+
+.countdown li {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    padding: 0.4rem;
+    color: black;
+    background: #FFF8DC;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.countdown li span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 1rem;
+}
+
+.finaldados {
+    display: flex;
+    padding: 10px;
+}
+
+.finaldados a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 50px;
+}
